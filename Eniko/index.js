@@ -12,7 +12,7 @@ console.log("Create a new string from a given string with the first character of
 
 // Create a new string from a given string taking the last 3 characters of the string and add them to both the front and back of the new string. The string length must be 3 or more, i.e., expected output: Scritch => tchScritchtch.
 let var4 = "banananana"
-console.log("Create a new string from a given string taking the last 3 characters of the string and add them to both the front and back of the new string: " + var4.substr(0, 4) + var4 + var4.substring(0, 4));
+console.log("Create a new string from a given string taking the last 3 characters of the string and add them to both the front and back of the new string: " + var4.substr(7, 10) + var4 + var4.substring(7, 10));
 
 // Create a new string from a given string by changing the position of first and last characters. The string length must be greater than or equal to 2, i.e., expected output: BoogieWoogie => eoogieWoogiB.
 let var5 = "Bahama Mama"

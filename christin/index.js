@@ -23,7 +23,7 @@ console.log("4.", string2 + string + string2);
 /* 5.Create a new string from a given string by changing the position of first and last characters.The string length must be greater than or equal to 2, i.e., expected output: BoogieWoogie => eoogieWoogiB.*/
 
 let var3 = "Doggy";
-console.log("5.:", var3.slice(1) + var3[0]);
+console.log("5.:", var3[4] + var3.slice(1, 4) + var3[0]);
 
 /*6. Declare a variable and assign the value "the quick brown fox"(all in lower case).Capitalize the first letter of that string.Print the result to the console.*/
 

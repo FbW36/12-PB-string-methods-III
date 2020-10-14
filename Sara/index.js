@@ -18,17 +18,19 @@ console.log('Four ==>', exampleOne.substr(0, 3) + exampleOne + exampleOne.substr
 let exampleThree = 'BoggieWoogie';
 let firstLetter = exampleThree[0] ; // B
 let lastLetter = exampleThree[exampleThree.length -1] ; //e
+let word = exampleThree.substring(1,exampleThree.length -1 )
 
+console.log('original word ==>', firstLetter + word + lastLetter) // BoogieWoogie 
 console.log('exampleThree ==>', firstLetter) ; // B
+console.log('exampleThree ==>', word) ; // e
 console.log('exampleThree ==>', lastLetter) ; // e
-
 console.log('exampleThree ==>', lastLetter + exampleThree.substring(1) + firstLetter) ; // exampleThree ==> eoggieWoogieB
 
 
 // 6. Declare a variable and assign the value "the quick brown fox" (all in lower case). Capitalize the first letter of that string. Print the result to the console.
 let str = 'the quick brown fox' ;
-console.log('str ==>', str[0].toUpperCase() + str.substring(1)); 
-
+console.log('str ==>', str[0].toUpperCase() + str.substring(1));// The quick brown fox 🦊🦊🦊
+ 
 
 
 

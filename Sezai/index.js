@@ -9,7 +9,7 @@ console.log("str2 ==> ", str2.toLowerCase());
 // 3.
 console.log(str1.length);
 let str3 = "Bananas"
-console.log("str3 ==> ", str1.slice(0,1)+str3+str1.slice(0,1));
+console.log("str3 ==> ", str3[0]+str3+str3[0]);
 
 // 4.
 console.log(str2.length);

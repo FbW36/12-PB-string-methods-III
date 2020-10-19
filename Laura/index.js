@@ -25,10 +25,15 @@ let str4 = "Scritch";
 console.log(str4.substring(4) + str4 + str4.substring(4)); // tchScritchtch
 
 // 5. Create a new string from a given string by changing the position of first and last characters. The string length must be greater than or equal to 2, i.e., expected output: BoogieWoogie => eoogieWoogiB.
-let str5 = "BoogieWoogie";
-// console.log(str5.replace("B", "e"));
-console.log(str5.replace(str5[0], str5[str5.length - 1])); // eoogieWoogie
+const str5 = "BoogieWoogie";
+const firstLetter = str5[0];
+const lastLetter = str5[str5.length - 1];
+const remainderString = str5.substring(1, str5.length - 1);
+console.log(lastLetter + remainderString + firstLetter); // eoogieWoogiB
 
 // 6. Declare a variable and assign the value "the quick brown fox" (all in lower case). Capitalize the first letter of that string. Print the result to the console.
 let str6 = "the quick brown fox";
-console.log(str6.replace(str6[0], str6[0].toUpperCase(str6[0])));
+console.log(str6.replace(str6[0], str6[0].toUpperCase(str6[0]))); // The quick brown fox
+// const name = 'ciamac'
+// const nameCapitalized = name.charAt(0).toUpperCase() + name.slice(1)
+// console.log("First uppercase letter", nameCapitalized)
